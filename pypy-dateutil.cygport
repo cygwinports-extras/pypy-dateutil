@@ -1,0 +1,12 @@
+inherit pypy-distutils
+
+NAME="pypy-dateutil"
+VERSION=1.5
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="PyPy date/time utility module"
+DESCRIPTION="The dateutil module provides powerful extensions to the standard
+datetime module, available in Python 2.3+."
+HOMEPAGE="http://labix.org/python-dateutil"
+SRC_URI="http://labix.org/download/python-dateutil/python-dateutil-${VERSION}.tar.gz"
+SRC_DIR="python-dateutil-${VERSION}"
